@@ -1,0 +1,135 @@
+<!-- http://cs.brown.edu/people/sbach/ -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+	<link rel="stylesheet" type="text/css" href="./lib/style.css">
+	<script type="text/javascript" src="./lib/hidebib.js"></script>
+	<title>Multi-level Graph Label Propagation for Image Segmentation</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Multi-level Graph Label Propagation for Image Segmentation"/>
+	<meta name="description" content="" />
+	<meta name="robots" content="index, follow, noarchive" />
+	<meta name="googlebot" content="noarchive" />
+</head>
+
+<body style="background-color: #250757; margin: 0; padding:0;">
+	<div style="height: 10px"></div>
+	<table width="800" border="0" align="center" cellpadding="20" 
+		style="background-color: #fff; 
+		height: 100%;
+		"
+	>
+		<tr>
+			<td style="vertical-align: text-top;">
+				<p>
+					<font size="5px">Multi-level Graph Label Propagation for Image Segmentation</font>
+				</p>
+				<p style="font-size: 14px; line-height: 120%;">
+					Below is a C/C++ implementation of the image segmentation algorithm described in the paper:
+				</p>
+
+				<!-- https://github.com/ivarvb/mglp/ -->
+				<p id="icons">
+					<a	class="btn btn-secondary btn-sm"						
+						href="#"
+						style="background-color: #ccc;"
+						title="Under maintance"
+					>
+						<i class="fa fa-github"></i> 
+						Source code download
+					</a>
+					<span style="font-size: 11px;">
+						<!-- (updated on 07/11/2020) -->
+					</span>
+				</p>
+				<hr>
+				<div style="text-align: center;">
+					<img src="./img/pipmllp.png" style="width: 650px;" >
+					<div style="font-size: 14px; text-align: justify; margin: 0 auto;">
+						The proposed method: (a) Input image; (b) super-pixel pre-segmentation; (c) feature extraction; (d) multi-level propagation where new graphs are created by merging similar super-pixels from the previous level; (e) final segmentation at the last level.
+					</div>
+				</div>
+				<hr>
+				<p>
+					<font size="4px">Example of results:</font>
+				</p>
+				<table style="margin: 0 auto; text-align: center;">
+					<tr>
+						<td>
+							<img src="./img/levels/183066_l0.jpg" style="width: 180px;" >
+						</td>
+						<td>
+							<img src="./img/levels/183066_l1.jpg" style="width: 180px;" >
+						</td>
+						<td>
+							<img src="./img/levels/183066_l2.jpg" style="width: 180px;" >
+						</td>
+						<td>
+							<img src="./img/levels/183066_l3.jpg" style="width: 180px;" >
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div style="font-size: 14px;">
+								Level 1
+							</div>
+						</td>
+						<td>
+							<div style="font-size: 14px;">
+								Level 2
+							</div>
+						</td>
+						<td>
+							<div style="font-size: 14px;">
+								Level 3
+							</div>
+						</td>
+						<td>
+							<div style="font-size: 14px;">
+								Level 4
+							</div>
+						</td>
+					</tr>
+				</table>
+
+				<hr>
+
+				<p>
+					<font size="4px">
+						You cat cite our paper use the bibtex reference below:
+					</font>
+				</p>
+
+				
+				<pre class="bib" style="
+					text-align: left; 
+				    white-space: pre-line;
+					font-size: 11px;
+					"
+					
+					>
+					@inproceedings{mglp2020ivar,
+					  author = {I. V. {Belizario} and J. B. {Neto}},
+					  booktitle={2020 33th SIBGRAPI Conference on Graphics, Patterns and Images}, 
+					  title = {Multi-level Graph Label Propagation for Image Segmentation},
+					  year = {2020},
+					  volume = {},
+					  number = {},
+					  pages = {},
+					}
+				</pre>
+				
+			</td>
+		</tr>
+	</table>
+	<div style="height: 10px"></div>
+</body>
+
+</html>
